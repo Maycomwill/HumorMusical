@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humor Musical</title>
+    <link rel='stylesheet' href='estilo.css'>
+    <link rel="icon" type="imagem/png" href="./icon/icon.png" />
+
+</head>
+<body>
+    <header>
+        Humor Musical
+    </header>
+
+    <section>
+        <div id='msg1'>Por favor, nos informe seu humor hoje, e se você quer mante-lo ou muda-lo.</div>
+        <div class=escolhas>
+            <select name='humor' id='humor'>Humor
+                <option value='feliz'>Feliz</option>
+                <option value='bad'>Na bad</option>
+                <option value='puto'>Muito puto</option>
+                <option value='suave'>Suavão</option>
+                <option value='inspirado'>Na instiga</option>
+                <option value='magoa'>Mágoa do carai boy</option>
+                </select>
+        </div>
+        <div id='msg2'>Agora escolha se quer manter ou mudar seu humor.</div>
+        <div id='radio'>
+            <input type="radio" name='humorrad' id="manter"CHECKED> <label for='manter'>Manter</label>
+            <input type="radio" name='humorrad' id="mudar" > <label for='mudar'>Mudar</label>
+        </div>
+        <button class='enviar' onclick="enviar()">Enviar</button>
+        <div id="textmusica"></div>
+        <div id="musica"></div>
+        <button class='play' onclick="play()">Ouvir</button>
+    </section>
+
+
+
+    <footer>
+        <p class='credit'>Criado por Maycom Willams &reg;</p>
+        <p class='work'>Work in progress &#9874;</p>
+    </footer>
+    <script src="codigo.js"></script>
+</body>
+</html>

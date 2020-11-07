@@ -1,0 +1,113 @@
+body{
+    background-color: #c5fff2;
+}
+header{
+    padding: 15pt;
+    margin: auto;
+    text-align: center;
+    font: bolder 25pt Arial;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:whitesmoke;
+    height: 440px;
+    width: 750px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px 1px black;
+}
+#msg1{
+    text-align: center; 
+    padding-top: 20px;
+    margin: 15px;
+    font: normal 25pt Arial;
+
+}
+.escolhas{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#humor{
+    background-color: #c5fff2;
+    font: normal 15pt Arial;
+    height: 40px;
+    cursor: pointer;
+}
+#msg2{
+    text-align: center; 
+    padding-top: 15px;
+    font: normal 20pt Arial;
+}
+#radio{
+    font: normal 18pt Arial;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+#manter{
+    cursor: pointer;
+}
+#mudar{
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    margin:auto;
+    border-radius: 10px;
+    width: 220px;
+    height: 58px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3.5px 1px black;
+
+}
+.enviar{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px #62ffdd;
+    border-radius: 20px;
+    width: 72px;
+    height: 35px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    font-size: 13pt;
+}
+.enviar:hover{
+    background-color:#62ffdd;
+    color: rgb(0, 0, 0);
+}
+#textmusica{
+    margin:auto;
+    padding-top: 15px;
+    text-align: center;
+    font: normal 18pt Arial;
+}
+#musica{
+    margin:auto;
+    padding-top: 20px;
+    text-align: center;
+    font: bolder 18pt Arial;
+}   
+.play{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px #62ffdd;
+    border-radius: 20px;
+    width: 62px;
+    height: 35px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    font-size: 13pt;
+}
+.play:hover{
+    background-color: #62ffdd;
+    color: rgb(0, 0, 0);
+}
